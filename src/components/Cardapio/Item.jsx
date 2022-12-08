@@ -5,7 +5,7 @@ import client from '../../sanity'
 import Image from 'next/image'
 
 
-function ItemCardapio({category, title , image}) {
+function Item({category, title , image}) {
   const imagem = useNextSanityImage(client, image)
   return (
     <div className={styles.item}>
@@ -19,4 +19,4 @@ function ItemCardapio({category, title , image}) {
   )
 }
 
-export default ItemCardapio
+export default Item

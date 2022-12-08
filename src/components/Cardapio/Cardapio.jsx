@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../Cardapio/Cardapio.module.scss'
-import Itemcardapio from './Itemcardapio'
+import Item from './Item'
 
 function Cardapio({cardapio}) {
     
@@ -16,10 +16,10 @@ function Cardapio({cardapio}) {
             <h2 className='gold'>No Cardapio</h2>
 
             <div className={styles.items}>
-               <Itemcardapio category={category1} title={title1} image={image1} />
-               <Itemcardapio category={category2} title={title2} image={image2} />
-               <Itemcardapio category={category3} title={title3} image={image3} />
-               <Itemcardapio category={category4} title={title4} image={image4} />
+               <Item category={category1} title={title1} image={image1} />
+               <Item category={category2} title={title2} image={image2} />
+               <Item category={category3} title={title3} image={image3} />
+               <Item category={category4} title={title4} image={image4} />
                
             </div>
 
