@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../Cardapio/itemcardapio.module.scss'
+import styles from '../Cardapio/Item.module.scss'
 import { useNextSanityImage } from 'next-sanity-image'
 import client from '../../sanity'
 import Image from 'next/image'
